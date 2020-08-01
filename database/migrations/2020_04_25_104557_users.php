@@ -22,6 +22,7 @@ class Users extends Migration
             $table->string('cellphone')->unique();
             $table->string('password');
             $table->timestamps();
+            $table->string('remember_token')->nullable();
         });
     }
 

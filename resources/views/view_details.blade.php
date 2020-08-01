@@ -1,9 +1,9 @@
 @extends('dashboardlayout')
 @section('content')
 <div class="col">
-   <div class="card text-white bg-dark">
+   <div class="card text-white bg-secondary">
       <div class="card-body">
-         <h5 class="card-title text-left text-white">Edit Personal Details</h5>
+         <h5 class="card-title text-center text-white"><small>EDIT PERSONAL DETAILS</small></h5>
       </div>
    </div>
    <div class="card text-white bg-light">
@@ -32,7 +32,7 @@
             @if (!empty($user_details))
             @foreach($user_details as $user)
             <div class="form-group row">
-               <label for="name" class="col-md-4 col-form-label text-md-center text-dark">{{ __('Name') }} </label>
+               <label for="name" class="col-md-4 col-form-label text-md-left text-dark">{{ __('Name') }} </label>
                <div class="col-md-6">
                   <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{$user->name}}" required autocomplete="name" autofocus>
                   @error('name')
@@ -43,7 +43,7 @@
                </div>
             </div>
             <div class="form-group row">
-               <label for="surname" class="col-md-4 col-form-label text-md-center text-dark">{{ __('Surname') }}</label>
+               <label for="surname" class="col-md-4 col-form-label text-md-left text-dark">{{ __('Surname') }}</label>
                <div class="col-md-6">
                   <input id="surname" type="text" class="form-control @error('surname') is-invalid @enderror" name="surname" value="{{ $user->surname }}" required autocomplete="name" autofocus>
                   @error('surname')

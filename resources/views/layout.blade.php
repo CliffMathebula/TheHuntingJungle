@@ -16,7 +16,7 @@
 		<!-- Navigation bar -->
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
 			<!-- Brand -->
-			<a class="navbar-brand" href="{{url('/')}}">
+			<a class="navbar-brand text-light" href="{{url('/')}}">
 				The Hunting Jungle
 			</a>
 
@@ -26,25 +26,22 @@
 			</button>
 
 			<!-- Navbar links -->
-			<div class="collapse navbar-collapse navbar-center" id="collapsibleNavbar">
+			<div class="collapse navbar-collapse navbar-center "  id="collapsibleNavbar">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Career portal</a>
+					<li class="nav-item ">
+						<a class="nav-link text-white" href="#"><strong>Career portal</strong></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Classifieds</strong></a>
+						<a class="nav-link text-white" href="#"><strong>Classifieds</strong></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Domains & Hosting</a>
+						<a class="nav-link text-white" href="#"><strong>Domains & Hosting</strong></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Software Development</a>
+						<a class="nav-link text-white" href="#"><strong> Software Development</strong></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Business Marketing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Business Registration</a>
+						<a class="nav-link text-white" href="#"><strong>Sign In</strong></a>
 					</li>
 				</ul>
 			</div>
@@ -54,10 +51,11 @@
 	<!-- alert danger -->
 	<div class="flex-c-m size22 bg0 s-text21 pos-relative alert alert-danger alert-dismissible">
 		<button type="button" class="close" data-dismiss="alert">&times;</button>
-		Promote your business! 95% Discount Only R5 Per day .
+		<p class="text-white"><strong>Promote and Sell Your Products! &nbsp; 95% &nbsp; Discount Only R5 Per day.
 		<a href="{{url('register')}}" class="s-text22 hov6 p-l-5">
 			Sign up now
-		</a>
+		</a></strong>
+		</p>
 	</div>
 
   @yield('content')

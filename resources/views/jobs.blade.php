@@ -1,9 +1,9 @@
 @extends('dashboardlayout')
 @section('content')
 <div class="col">
-    <div class="card text-white bg-dark">
+    <div class="card text-light bg-secondary">
         <div class="card-body">
-            <h5 class="card-title ">Careers Portal</h5>
+            <h5 class="card-title">Careers Portal</h5>
         </div>
     </div>
     <br />
@@ -32,7 +32,10 @@
     </div>
     @endforeach
     @else
-    <p class="alert alert-danger"><strong> No Jobs Available at the moment ! </strong></p>
+    <div class="alert alert-info text-danger alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Info!</strong> No Jobs Available at the moment!
+  </div>
     @endif
 
 </div>

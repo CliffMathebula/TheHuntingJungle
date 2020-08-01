@@ -6,10 +6,7 @@
 </head>
 
 <body>
-    @include('dashboardsidebar')
-    
     @yield('content')
-    
 </body>
 
 </html>

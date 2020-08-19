@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/util.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.min.css">
 
@@ -99,11 +100,11 @@
           </li></strong>
           <li class="list-group-item bg-secondary">
             <a class="btn btn-link btn-block text-warning" href="{{url('support')}}">
-              <i class="fa fa-cart fa-xl"></i><strong>Support Tickets</strong></a>
+            <i class="topbar-social-item fa fa-cart"></i><strong>Support Tickets</strong></a>
           </li>
           <li class="list-group-item bg-dark">
             <a class="btn btn-link btn-block text-light" href="{{url('logout')}}">
-              <i class="fas fa-lock fa-xl"></i> <strong>Sign Out</strong></a>
+              <i class="topbar-social-item fa fa-lock"></i> <strong>Sign Out</strong></a>
           </li>
       </div>
     </div>

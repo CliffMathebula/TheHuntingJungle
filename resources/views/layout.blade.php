@@ -8,7 +8,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/util.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
   </head>
 <body>
@@ -29,19 +30,19 @@
 			<div class="collapse navbar-collapse navbar-center "  id="collapsibleNavbar">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item ">
-						<a class="nav-link text-white" href="#"><strong>Career portal</strong></a>
+						<a class="nav-link text-white" href="#">Careers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="#"><strong>Classifieds</strong></a>
+						<a class="nav-link text-white" href="#">Classifieds</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="#"><strong>Domains & Hosting</strong></a>
+						<a class="nav-link text-white" href="#">Domains & Hosting</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="#"><strong> Software Development</strong></a>
+						<a class="nav-link text-white" href="#"> Software Development </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="#"><strong>Sign In</strong></a>
+						<a class="nav-link text-white" href="login">Sign In</a>
 					</li>
 				</ul>
 			</div>
@@ -51,10 +52,10 @@
 	<!-- alert danger -->
 	<div class="flex-c-m size22 bg0 s-text21 pos-relative alert alert-danger alert-dismissible">
 		<button type="button" class="close" data-dismiss="alert">&times;</button>
-		<p class="text-white"><strong>Promote and Sell Your Products! &nbsp; 95% &nbsp; Discount Only R5 Per day.
-		<a href="{{url('register')}}" class="s-text22 hov6 p-l-5">
+		<p class="text-white">Promote and Sell Your Products! &nbsp; 95% &nbsp; Discount Only R5 Per day.
+		<a href="{{url('register')}}" class="s-text21 hov6 p-l-5">
 			Sign up now
-		</a></strong>
+		</a>
 		</p>
 	</div>
 

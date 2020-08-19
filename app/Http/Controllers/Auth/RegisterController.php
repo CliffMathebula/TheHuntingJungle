@@ -78,8 +78,11 @@ class RegisterController extends Controller
             'cellphone' => $request['cellphone'],
             'email' => $request['email'],
             'password' => Hash::make($request['password']),
-            'remember_token' => NULL,
+            'remember_token' => $request['_token'],
         ]);
-        return ('<br /><br /><center>Successfully Registered click here to <a href="/login">login</a></center>');
+        return ('<script type="text/javascript">
+alert("Successfully Registered!");
+window.location.href = "/login";
+</script>');
     }
 }

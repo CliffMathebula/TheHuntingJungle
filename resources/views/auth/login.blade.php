@@ -36,7 +36,7 @@
         <div class="col-md-6">
             <div class="card mt-4">
                 <div class="card-header bg-light">
-                    <h5 class="text-center text-dark"><small>Sign-in to your Account</small></h5>
+                    <h5 class="text-center text-dark">Sign-in to your Account</h5>
                 </div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -51,13 +51,14 @@
                                 </div>
                                 <div class="card-footer">
                                     <div class="form-group">
-                                        <input type="submit" class="btn btn-dark btn-block" value="Login"> &nbsp;
+                                        <input type="submit" class="btn btn-secondary btn-block" value="Login">
                                     </div>
+                                    <div class="form-group"><a href="/" class="btn btn-warning btn-block">Cancel</a></div>
                                     <div class="form-group">
                                     <a href="/password/reset" class="text-danger text-xl">Forgot password?</a>
                                     </div>
                                     <div class="form-group">
-                                    <a href="{{url('register')}}" class="text-primary text-xl">Sign Up </a>
+                                    <a href="{{url('register')}}" class="text-success text-xl">Sign Up </a>
                                     </div>
                                 </div>
                             </div>

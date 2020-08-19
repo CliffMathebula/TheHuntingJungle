@@ -22,6 +22,8 @@
                         <div class="form-group">
                             <p class="text-body">Email address:</p>
                             <input type="email" class="form-control" id="email">
+                            <input type="password" name="user_password" id="user_password" class="form-control" data-toggle="password">
+  
                         </div>
                         <div class="form-group">
                             <label for="pwd" class="text-body">Password:</label>

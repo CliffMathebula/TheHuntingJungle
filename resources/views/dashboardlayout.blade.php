@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+@include('dashboardheader')
 <head>
-    @include('dashboardhead')
+    @include('dashboardsidebar')
 </head>
 
 <body>

@@ -19,3 +19,6 @@ Route::get('update_details', 'UsersController@update');
 
 //route to listed jobs
 Route::get('listed_jobs', 'JobsController@select');
+
+//route to edit user details 
+Route::get('jobposting/{id}', 'UsersController@select');
